@@ -72,6 +72,25 @@ function createTeam() {
                   <li class="list-group-item">${answers.id}</li>
                 </ul>
         </div>
+        <div class="card" style="width: 18rem;">
+        <div class="card-header fas fa-tools">${answers.role}</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"></li>
+              <li class="list-group-item">${answers.name}</li>
+              <li class="list-group-item">${answers.email}</li>
+              <li class="list-group-item">${answers.id}</li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+        <div class="card-header fas fa-user-edit">${answers.role}</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"></li>
+                <li class="list-group-item">${answers.name}</li>
+                <li class="list-group-item">${answers.email}</li>
+                <li class="list-group-item">${answers.id}</li>
+            </ul>
+        </div>
     
     
         
